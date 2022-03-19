@@ -1,3 +1,5 @@
+// Difficulty: Easy
+
 function TwoNumberSum(array, targetSum) {
   // Sort the array
   array.sort((a,b) => a - b)
@@ -23,8 +25,7 @@ function TwoNumberSum(array, targetSum) {
       //   L        R
       right--
     }
-  } return []
-  // return empty array if no match
+  } return [] // return empty array if no match
 }
 
 /**
